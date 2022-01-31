@@ -1,0 +1,60 @@
+Request Headers
+
+User-Agent: PostmanRuntime/7.29.0
+What version of postman the programs runs in
+
+Accept: */*
+It accepts any data
+
+Postman-Token: f8e1635c-a992-4992-913e-79146189eb90
+Postman will use it to request service from the api
+
+Host: www.googleapis.com
+Name of website where information is pulled
+
+Accept-Encoding: gzip, deflate, br
+Uses different formats to compress data
+
+Connection: keep-alive
+TCP connection remains open for HTTP requests
+
+Response Headers
+
+Content-Type: application/json; charset=UTF-8
+A string along the file indicating that uses json
+
+Vary: Origin
+How will future requests be matched. Cached or fresh
+
+Vary: X-Origin
+Extension of standard header. Denotes how future requests be matched
+
+Vary: Referer
+Parts of the request message
+
+Content-Encoding: gzip
+File format to compress HTTP content before it's served to a client
+
+Date: Wed, 26 Jan 2022 23:56:55 GMT
+Date of creatiom
+
+Server: ESF
+External Security Facility tyoe of server
+
+Cache-Control: private
+Resource is specific to the user. Can be cached only on a client device
+
+X-XSS-Protection: 0
+Prevents pages from loading when encountering cross-site scripting attacks
+
+X-Frame-Options: SAMEORIGIN
+Page can only be embedded on a page with the same origin
+
+X-Content-Type-Options: nosniff
+Prevents mime based attacks
+
+Alt-Svc: h3=":443"; ma=2592000,h3-29=":443"; ma=2592000,h3-Q050=":443"; ma=2592000,h3-Q046=":443"; ma=2592000,h3-Q043=":443"; ma=2592000,quic=":443"; ma=2592000; v="46,43"
+Resources can be available in a different network location
+
+Transfer-Encoding: chunked
+Data is divided and sent in chunks

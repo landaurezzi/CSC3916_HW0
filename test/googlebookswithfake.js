@@ -23,7 +23,8 @@ describe('Test Async Books (Mock)', () => {
         sandbox.stub(axios, 'get').returns(resolved);
 
         getBooks('turing').then((result) => {
-            console.log(result);
+            console.log(result).data;
+            let data = JSON.parse(result).data;
             expect(result).to.equal('"hello world"');
             done();
         }).catch(err => done(err));
